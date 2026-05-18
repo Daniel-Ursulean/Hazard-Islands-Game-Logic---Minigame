@@ -1,0 +1,1 @@
+tellraw @p {"color":"green","text":"Maps\n\n Maps are the environments where the game is played. Each map is unique and may require a different strategy and playstyle. Some maps contain hidden secrets, so if you \"randomly explode,\" there’s probably a reason.\n\n Before the start of each round, you can select a map. If no selection is made, a random map will be chosen."}

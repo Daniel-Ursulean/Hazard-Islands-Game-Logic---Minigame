@@ -1,0 +1,3 @@
+execute if score TypeOfScoring System matches 0 run title @p actionbar {"color":"gold","text":"Type of scoring: Top 1"}
+execute if score TypeOfScoring System matches 1 run title @p actionbar {"color":"gold","text":"Type of scoring: Top 3"}
+tellraw @p [{"color":"gold","text":"Select type of scoring:"},{"click_event":{"action":"run_command","command":"function systemhazis:score/scoretype0"},"hover_event":{"action":"show_text","value":[{"text":"The winner of the round gets +1 score"}]},"text":"\n[Top 1]  "},{"click_event":{"action":"run_command","command":"function systemhazis:score/scoretype1"},"hover_event":{"action":"show_text","value":[{"text":"The 3rd place gets +1, 2nd place +2, 1st place +3 score"}]},"text":"  [Top 3]"}]

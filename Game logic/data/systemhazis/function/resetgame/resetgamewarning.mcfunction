@@ -1,0 +1,1 @@
+tellraw @p [{"color":"red","text":" Are you sure you want to reset the game? The score will be deleted. If not, don't press the following button.\n "},{"click_event":{"action":"run_command","command":"/function systemhazis:resetgame/resetgame"},"text":"[Reset]"}]
